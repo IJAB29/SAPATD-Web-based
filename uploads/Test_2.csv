@@ -1,0 +1,396 @@
+Name,Sex,NATIONALITY,PLACE OF BIRTH,AGE,Year Level,FAMILY INCOME,FAMILY SIZE,PARENT EDUC_STATUS,AVE_TRAVEL_RES_SCHL,study_hours,study_hours,dropped_subj,failed_sub,love_of_course,1st_yr_1st_sem,1st_yr_2nd_sem,2nd_yr_1st_sem,2nd_yr_2nd_sem,3rd_yr_1st_sem,3rd_yr_2nd_sem,G11,G12,Class
+Bobby,F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,9,3,0,INTEREST,3.5,3.75,2,2,2.5,5,1.75,85,80,M
+Caitlin,M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,1.25,3.5,3.25,2.5,3,2.75,1.25,87,90,L
+David,M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,7,3,1,OWN-2,4,2,4,2.5,1.5,1.25,1.35,88,80,M
+Emily,F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,3,1,INTEREST,3,1.25,3.25,3,1.5,1.25,2.75,70,75,L
+Felix,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,4.25,4.25,3.25,2.5,2.75,3,3,78,80,M
+Grace,M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,10,3,3,OWN-3,2.25,3.75,3.25,2.75,1.5,1.25,1.5,90,90,L
+Henry,M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,7,1,0,INTEREST,2.5,4.25,2.75,3,1.75,2,1.75,89,93,M
+Isabella,F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,2.5,5,5,5,5,5,5,75,75,L
+Ace,M,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,2,2,OWN-4,2.5,3,2.75,2.5,3,2,3,80,90,M
+Cris,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,INTEREST,4.25,4.25,3.25,2.5,2.75,3,3,78,80,L
+Rodel,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,4.25,4.25,3.25,2.5,2.75,3,3,0,0,M
+Adrianne,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,0,1,2,OWN-1,3.5,1.75,2,3.3,1.5,1.75,1.5,90,80,L
+Bobby,F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,9,3,0,INTEREST,3.5,3.75,2,2,2.5,5,1.75,85,80,M
+Caitlin,M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,1.25,3.5,3.25,2.5,3,2.75,1.25,87,90,L
+David,M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,7,3,1,OWN-2,4,2,4,2.5,1.5,1.25,1.35,88,80,M
+Emily,F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,3,1,INTEREST,3,1.25,3.25,3,1.5,1.25,2.75,70,75,L
+Felix,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,4.25,4.25,3.25,2.5,2.75,3,3,78,80,M
+Grace,M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,10,3,3,OWN-3,2.25,3.75,3.25,2.75,1.5,1.25,1.5,90,90,L
+Henry,M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,7,1,0,INTEREST,2.5,4.25,2.75,3,1.75,2,1.75,89,93,M
+Isabella,F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,2.5,5,5,5,5,5,5,75,75,L
+Ace,M,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,2,2,OWN-4,2.5,3,2.75,2.5,3,2,3,95,90,M
+Cris,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,INTEREST,4.25,4.25,3.25,2.5,2.75,3,3,78,80,L
+Rodel,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,4.25,4.25,3.25,2.5,2.75,3,3,0,0,M
+"BADILLA, MARY APPLE, G.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,4,1,1,RECOMMENDED,1,3.5,1.75,2,3.3,1.5,1.75,90,80,M
+"BANTULA, FLOREMAE, S.",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,4,8,3,RECOMMENDED,3,3.5,3.75,2,2,2.5,5,85,80,M
+"BANSIG, JAYBEE B.",F,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,2,2,3,RECOMMENDED,2,1.25,3.5,3.25,2.5,3,2.75,87,90,M
+"BAUTISTA, LARYVIL G.",F,FILIPINO,Butuan City,31,3,above average,small,both educated,10km-12km,2,7,3,RECOMMENDED,4,4,2,4,2.5,1.5,1.25,88,80,M
+"BUNAL, MARJORIE L.",F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,2,3,RECOMMENDED,1,3,1.25,3.25,3,1.5,1.25,70,75,L
+"BUTRON, AIRALIE C.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,4,4.25,4.25,3.25,2.5,2.75,3,78,80,M
+"EMPERADO, ROME, JR.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,8,3,RECOMMENDED,2,2.25,3.75,3.25,2.75,1.5,1.25,90,90,M
+"ESTACIO, MONALIZA C.",F,FILIPINO,Butuan City,40,3,above average,small,both educated,10km-12km,3,7,1,RECOMMENDED,4,2.5,4.25,2.75,3,1.75,2,89,93,L
+"FABIAN, THESA JOY C.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,3,2.5,5,5,5,5,5,75,75,M
+"FLORES,KARL ADRIAN D.",F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,3,2.5,3,2.75,2.5,3,2,95,90,L
+"FULGUERINAS, LEAH T.",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,4,3.5,4.25,3.25,2.5,2.75,3,78,80,M
+"GARCIA, JOEY D.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,4,4.25,4.25,3.25,2.5,2.75,3,0,0,L
+"OMONGOS, CHRISTIAN DAVE P.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,4,0,RECOMMENDED,3,3,1.5,2,2.25,2,2.25,86.23,86.23,M
+"PARLUCHA, ARGIE",F,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,1,2.75,2.25,1.75,2,2.5,2,91,91,L
+"PORRAS, ANTONETTE D.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,4,2,0,RECOMMENDED,4,2,2,2.5,2.5,2.75,2.75,84.16,83.62,M
+"TAMAYO, MA ANGELICA F.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,4,1.75,2.5,3,2.75,1.75,1.75,85.2,86.15,L
+"VILLANUEVA, CRIS E.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,4,1.25,2.75,2.25,1.75,1.5,1.5,87,85,M
+"ACEDRON, MIRY G.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,4,1.25,1.75,2,1.5,1.75,3,91,91,L
+"ANDRICA, ARCHILYN K.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,3,2,RECOMMENDED,1,1.25,1.5,2.75,1.75,1.75,2.5,88,89,M
+"ARCALA, MARIA TERISA G.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,7,0,RECOMMENDED,4,1.5,1.75,1.75,1.75,1.5,2.75,80.3,80.8,L
+"AUMENTO, REGINE B.",F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,1,1,0,RECOMMENDED,2,1.25,1.75,1.5,1.5,1.75,1.75,85.52,89.94,M
+"AYO, JENY MARA C.",F,FILIPINO,Butuan City,28,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,4,2,1.5,3,1.75,1.25,1.5,83.88,84,L
+"BOOC, ROSJANE P.",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,1,6,0,RECOMMENDED,1,3,1.75,2.5,1.75,2,1.75,80,86,M
+"BUNIEL, TERESITO C.",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,1,2.5,1.75,2.75,2,2,1.25,78,78,L
+"BURNEA, SILVANO, III D.",F,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,1,2.75,1.25,1.75,1.5,2.25,1.25,87,88,M
+"BUTAO, DEMBIE B.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,4,0,RECOMMENDED,1,2.25,1.5,1.5,2.25,2,1.5,85,90,L
+"MACAPILI, JUSTIN JAMES M.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,5,2,RECOMMENDED,4,1.25,2.25,1.75,2,2.5,2.75,80.68,78.45,M
+"MAGALONA, DEXTER ROY E.",F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,4,1,2,1.25,2.5,2.75,2,81.5,85.5,L
+"MAGARRO, JAYA MAE B.",F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,1,1.75,2.5,1.25,2.75,1.75,1.25,86,86,M
+"MANULAT, HONEY GRACE L.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,2,2,2.75,1.5,1.75,1.5,1.5,86,90,L
+"MEJIAS, JENALYN B.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,0,RECOMMENDED,4,2.75,1.75,2.75,1.5,3,1.25,83,88,M
+"MIÑOZA, GENESIS E.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,6,1,RECOMMENDED,4,2.25,1.5,2,1.75,2.5,2,92,91,L
+"MOLLES, LORENZO P.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,3,2,RECOMMENDED,4,2.5,1.75,1.25,1.25,2.75,2,85,82,M
+"MORALES, RAFAEL L.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,5,0,RECOMMENDED,4,2.75,1.25,1.5,1.25,1.75,2.5,83,79,L
+"MORDENO, TOTO A.",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,2.25,1.25,1.25,1.25,1.5,2.75,82,87,M
+"MULIG, ARNOLD G.",M,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,1,6,0,RECOMMENDED,4,2,1.25,2,1,1.75,1.75,81.52,81.55,M
+"MULIG, NOEL G.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,1,2.75,1,2,1.25,1.25,2.5,78,78.01,M
+"NAKILA, JULIA IRISH F",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,5,0,RECOMMENDED,3,1.75,1.25,2.5,1.5,1.25,1,87,84,M
+"SERONDO, JOYJOY E.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,4,1.5,1.5,2.75,1.25,1.5,2.25,92,92,M
+"SITOY, NICHOLE A.",M,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,2,3,1.25,1.75,2,2.75,2,87,91,L
+"SOLA, JOHN REY R.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,7,2,RECOMMENDED,2,2.5,2,2.5,2,2,2.75,85,85.6,M
+"SUAY, REGINE",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,4,2,RECOMMENDED,3,2.75,2,1,2.5,1.25,1.75,82.32,82,M
+"SUMALINOG, CHRISTINE L.", M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,2,1,RECOMMENDED,3,1.75,2.5,2.25,2.75,1.5,1.5,87,89,L
+"DAO, BRYAN MIKE B.",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,3,1.5,2.75,2,1.75,1.25,3,93,92,M
+"DELOSO, NIÑO ",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,1,1.75,1.75,2.75,2.5,2,2.5,87,85,L
+"GARE, RAMEL C.",M,FILIPINO,Butuan City,17,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,3,1.25,2.5,1.75,1,2,2.75,83.44,84,M
+"INTREMOTZA, JUVEL",F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,2,1,RECOMMENDED,2,1.25,1,1.5,2.25,2.5,1.75,82,88,L
+"BACOLOD, MA.ERIKA C.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,1,1.5,2.25,3,2,2.75,1.5,85.33,64.4,M
+"BERONIO, MARIANNE A.",M,FILIPINO,Butuan City,33,3,above average,small,both educated,10km-12km,1,6,0,RECOMMENDED,4,2.75,2,2.5,2.75,1.75,1.75,83,85,L
+"COQUILLA, LOUIEL JAYE L.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,3,2,2.75,2.75,1.75,1.75,1.25,88,88,M
+"CUENCA, JHON PAUL A.",F,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,3,1.75,1.75,1.75,1.5,1.25,1.25,93,93,L
+"CULTURA, GIA MAE B.",F,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,2,1.25,1.5,1.5,3,1.25,1.5,77.9,80.74,M
+"CULTURA, SARAJ MAE B.",F,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,4,2.75,3,1.75,2.5,1.5,1.75,79,76,L
+"DELA PEÑA, YLA ZYRA ",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,6,2,RECOMMENDED,3,1.25,2.5,1.25,2.75,2.25,1.25,93,90,M
+"DIMAYMAY, REY S.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,4,1.5,2.75,1.25,1.75,2,1.25,89,89,L
+"FLORES, JOHN LOUIE B.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,6,1,RECOMMENDED,4,1.25,1.75,1.5,1.5,2.5,1.25,87.09,87,M
+"FLORIO, CHARLENE MAE ",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,6,2,RECOMMENDED,1,2,1.5,1.75,1.75,2.75,3,77,81,L
+"JAÑA, RONNIE MAR",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,3,3,1.75,1.25,1.25,1.75,1.25,91,92,M
+"LABIS, JEFFREY B.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,6,1,RECOMMENDED,1,2.5,1.25,1.25,1.25,1.5,1.5,82.21,87.62,L
+"LABIS, JULINA",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,2,2,RECOMMENDED,4,2.75,1.25,1.25,1.5,1.75,1.25,92,94,M
+"PAHAGNAS, MEAJEAN M.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,2,2.25,1.5,3,2.75,1.25,2,76.35,82,L
+"PATAYON, RUTH JEAN D.",M,FILIPINO,Butuan City,30,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,1,1.25,2.75,1.25,2,1.25,2,80,80,M
+"POLONGASA, EDGAR, JR. O.",F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,2,1,2,1.5,1.75,1.25,2.5,88.57,88,L
+"RABOSA, SARAH S.",F,FILIPINO,Butuan City,85,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,1,1.75,1.75,1.25,3,3,2.75,85.06,85.5,M
+"REMIRATA, BLEZA JOY B.",M,FILIPINO,Butuan City,27,3,above average,small,both educated,10km-12km,4,2,2,RECOMMENDED,3,2,1.25,2,2.5,1.25,1.75,83.34,81.56,L
+"ROMERO, REY MARK P.",F,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,1,2.75,3,2,2.75,1.5,2.5,82,84,M
+"ROSALES, HONEY MAE H.",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,5,0,RECOMMENDED,2,2.25,1.25,2.5,1.75,1.25,1,83,80,L
+"SOBREDO, CARLO P.",M,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,1,2.5,1.5,2.75,1.5,2,2.25,94,93,M
+"SUGANOB, VINCE T.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,3,3,1.25,1.75,1.75,2,2,76,77,L
+"TENER, CHARLYN O.",M,FILIPINO,Butuan City,32,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,2,2.25,2,2.5,3,2.75,2.75,78.25,78,M
+"TOLENTINO, SEAN IESENHOWER C.",F,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,4,1,RECOMMENDED,2,2,3,1,1.25,1.75,1.75,87,87,M
+"TRANIA, CHERRY MAE P.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,4,2.75,2.5,2.25,1.5,1.5,1.5,81,84,M
+"UMPAD, ERNIE G.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,3,0,RECOMMENDED,2,1.75,2.75,2,2.75,3,3,93,89,M
+"VELASCO, JOHN RUEL D.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,2,1.5,2.25,2.75,2,2.5,2.5,84.6,84,M
+"YAGONG, JOMAR G.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,3,1.25,1.75,1.25,2.75,2.75,83.93,83.93,L
+"YANDUG, CHRISTIAN T.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,1,0,RECOMMENDED,1,2.5,1,1.5,1.5,1.75,1.75,87,87,M
+"ADLAWAN, RICA G.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,4,2.75,1.75,3,1.25,1.5,1.5,81.4,81.4,M
+"ASUNCION, RIZAL DEE B.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,6,0,RECOMMENDED,2,1.75,2,2.5,2,1.75,1.75,84,86,L
+"AMORA, LASATIEL P.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,3,1.5,2.75,2.75,2,1.25,1.25,89.043,89,M
+"BALBIN, CJ M.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,2,1.75,2.25,1.75,2.5,1.25,1.25,77.12,78,L
+BUQUE JOVAREY JANE P.,M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,2,1,RECOMMENDED,3,1.25,2.5,1.5,2.75,1.5,1.5,84,89,M
+"CAÑAL, MARK ROBERT",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,3,1.25,1,1.75,1.75,2.75,2.75,81,82.6,L
+"CASSION, CHARITTE T.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,2,1.5,2.25,1.25,2.5,2,3,80,81,M
+"CASTILLO, KENNETH AARON B.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,2,2.25,2,1.25,1,1.25,2,95,95,L
+"CASTRO, RONAMAE S.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,4,1,RECOMMENDED,3,2,2.75,1.5,2.25,1.5,2,87,88,M
+"CONCEPCION, STEVEN JENT P.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,1,0,RECOMMENDED,1,2.75,1.75,2.75,2,1.25,2.5,80,84.5,L
+"CORPUZ, REANY N.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,2,1.75,1.75,2,2.75,2,2.75,93,92,M
+"EBARLE, JENIEVA L.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,4,2,RECOMMENDED,4,1.5,1.5,2,1.75,2,1.75,91,92,L
+"EBAYA, JAYNE CLAYD L.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,6,2,RECOMMENDED,3,3,1.75,2,1.5,2.5,2.5,93,93,M
+"ELIOT, MARIA TERESA S.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,1,2.5,1.25,2.5,3,2.75,1,87,81,L
+"EMBUSCADO, RHEA MAE S.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,2,2.75,1.25,2.75,2.5,1.75,2.25,84,85,M
+"FERNANDEZ, JOSIE JANE T.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,3,1.75,1.25,1.75,2.75,1.75,2,91,93,L
+"GALIMBA, JESSELYN T.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,4,2,RECOMMENDED,2,1.5,1,2.5,3,1.25,2.75,88.2,88,M
+"GALOPE, JENELYN E.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,4,7,0,RECOMMENDED,4,1.75,1.25,1,1.5,1.25,1.75,89,90,L
+"GARCIA, CHRISTINE O.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,3,1.25,1.5,2.25,1.75,1.5,1.5,80,83,M
+"GREGORIO, LIZZEL NOVE",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,3,1.25,1.25,2,1.25,2.25,3,84,87,L
+"GULAY, JUNIE JR. S.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,2,1.5,2,2.75,1.25,2,2.5,92,94,M
+"GUZMAN, ALVIN JOHN A.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,3,2.75,2,1.75,1.5,2.5,1.5,90,91,L
+"MADELO, CHELLIE ROSE V.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,1,2,2.5,1.5,1.75,2.75,1.75,90,92,M
+"MATULAC, ARIAN JAY A.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,2,2,RECOMMENDED,2,1.75,2.75,3,1.25,1.75,3,95,95,L
+"MUNDA, MECHEKKE C.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,1,1.25,1.75,2.5,2.75,1.5,1.5,90,92,M
+"NAINGUE, JOMAR A.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,1,2.5,2.75,1.75,1.75,1.75,86,96,L
+"NAPONE, RUSSEL J.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,4,1.25,1,1.75,2.5,1.25,1.25,90.7,90.8,M
+"PACAÑA, DIVINE GRACE G.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,1,1.5,2.25,1.5,1,1.25,1.25,92,91,L
+"PAJOTA, CHARMELLE V.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,2,0,RECOMMENDED,3,1.25,2,1.75,2.25,1.25,1.5,86,86,M
+"PANER, RULY T.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,4,3,0,RECOMMENDED,1,2,2.75,1.25,2,1,2.25,91,91,M
+"PITOGO, KYLA V.",M ,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,3,3,1.75,1.25,2.75,1.25,2,91,93,M
+"PULIDO, MILTON G.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,4,2.5,1.5,1.5,1.75,1.5,2.5,87,87,M
+"RANQUE, ALLAN L.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,4,1.75,3,3,1.5,2.5,2.75,95,92,M
+"REBLEZA, KYLE ANTHONY C.",M,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,4,1,RECOMMENDED,1,1.5,2.5,1.25,3,2.75,1.75,80,85,L
+"SABANDAL, NIÑO JAYSOND M.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,2,3,2.75,1.25,2.5,1.75,1.5,80.7,81,M
+"SALAZAR, KEVON T.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,3,2.5,1.75,1.25,2.75,2.5,1.75,88,94.5,M
+"TABADA, JUSTINE A.",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,2,2.75,1.5,1,1.75,1,1.25,88,86,L
+"TENIO, NELSON JR. L",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,4,1.75,1.75,1.25,1.5,2.25,1.25,82,85,M
+"TOLIBAS, ELMAR M.",M,FILIPINO,Butuan City,34,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,4,1.5,1.25,1.5,1.75,2,1.25,83,82,L
+"TORRES, SYLVESTRE VOLTAIRE M.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,6,1,RECOMMENDED,3,1.75,1.25,1.25,1.25,2.75,1,91,94,M
+"VILLAGONZA, HANNAH JANE A.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,3,1.25,1.5,2,1.25,1.75,1.25,87,92,L
+"LIBRES, JOHN BERT N.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,3,0,RECOMMENDED,4,1.25,2.75,2,1.5,1.5,2.75,87,90,M
+"NACAYTUNA, REVAMAE O.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,4,1,RECOMMENDED,2,1.5,2,2.5,2.75,3,1.75,88,90,L
+"PELENIO, MERRY JOY M.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,3,2.25,2.75,2.75,2,2.5,2.5,93,91,M
+"PALACIOS, GENAFE S.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,5,0,RECOMMENDED,2,2,2.25,1.75,1.75,2.75,1,89,93,L
+"REMOLLO, MELANIE JOY",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,4,0,RECOMMENDED,3,2.75,1.25,2.5,3,1.75,2.25,84,88,M
+"SALUM, DIANA ROSE E.",F,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,1,1.75,1,1,2.5,1.5,2,83,85,L
+"SANGRIA, MICHELLE A.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,4,1.5,1.75,2.25,2.75,1.75,2.75,90,91,M
+"SELLE, ATEPHANIE L.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,3,3,2,2,1.75,1.25,1.75,87,82,L
+"SIMBAJON, ROMELIZA R.",F,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,2,2.5,2.75,1,1.5,2.75,1.5,80,82,M
+"SOLIS, NECO CRES P.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,1,2.75,2.25,2.25,1.75,1.75,3,77.2,77,L
+"TRESVALLES, VERGEK DAN S.",F,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,4,1.75,2.5,2,1.25,1.5,2.5,91,91,M
+"YANOGA, PAULA M.",M,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,7,1,RECOMMENDED,3,1.5,1,2.75,1.25,3,1.5,91,93,L
+"YGOT, IAN GRABIEL T.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,3,1.75,2.25,1.75,1.5,2.5,1.75,87,85,M
+"YPATO, ARMANDO, JR. ",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,2,1.25,2,1.5,2.75,2.75,1.75,93,96,L
+"MACLAY, SHANE VINCENT P.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,6,1,RECOMMENDED,3,1.25,2.75,3,2,1.75,1.5,93,94,M
+"PABON, APPLE JOY T.",F,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,2,1.25,1.75,2.5,1.25,1.5,1.75,89,92,L
+"PULIDO, CHRISTINE C.",F,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,4,2,RECOMMENDED,3,1,1.75,2.75,1.5,1.75,1.25,92,93,M
+"RAMILO, GLADES N.",M,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,4,5,1,RECOMMENDED,1,1.25,1.5,1.75,1.25,1.25,1.25,92,90,L
+"SINOC, ALEXJANROSS R.",M,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,1,1.5,1.75,1.5,2,1.25,3,86,89,M
+"CABERIO, RUSTOM G.",M,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,1,1.25,1.25,1.75,2,1.5,2.75,88,89,L
+"CABEROS, JAKE JR. T.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,1,2,1.25,1.25,2.5,2.75,2,78.03,78,M
+"CABUSAS, ALMA C.",M,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,2,3,1.25,1.25,2.75,2,1.25,88,87,L
+"CALAMBRO, JAYSON",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,3,2.5,1,1.5,1.75,2,1.5,91,93,M
+"DADONG, JOEL LLOYD S.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,3,1.75,1.25,2.75,2.5,2,1.25,94,96,M
+"DIEZ, JAKE EMMANUEL D.",M.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,4,1,0,RECOMMENDED,3,1.5,1.5,2,1.25,2.5,2,83,85,M
+"HANOPOL, MARJHON D.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,3,3,1.25,2,1.25,2.75,2,88,88,M
+"HAYAHAY, CHRIS VINCENT",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,1,2.5,2,2,1.5,1.75,2.5,93,92,M
+"HERAMIS, JOSHUA A.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,2,2.75,2,2.5,2.75,2.5,2.75,85,87,L
+"HINAUTAN, RHEA HONEY G.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,1,1.75,2,2.75,2,1,1.75,95,93,M
+"LIGALIG, WINCEL CRIS A.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,2,1.5,1.75,1.75,2.75,2.25,2.5,88,87,M
+"LLANTO, ANGELO",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,6,0,RECOMMENDED,4,1.75,2.5,2.5,2.25,2,1.25,87,88,L
+"MADJOS, HAROLD JEY N.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,4,1.25,1,1,1.25,2.75,1.25,90,86,M
+"MALALUAN, RORE ROI G.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,3,1.25,2.25,2.25,1,1.75,1.5,85,82,L
+"MALINAO, NINO EUGENE",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,6,0,RECOMMENDED,1,1.5,2,2,1.75,1.5,2.75,84,86,M
+"MACEDA, PETER JOSHUA",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,4,2.25,2.75,2.75,2,3,2,83,84,L
+"MABERIT, KATHERINE D.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,2,1,RECOMMENDED,4,2,1.75,1.75,2.75,2.5,2.75,84,84,M
+"MASLOG, LOVELLA M.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,4,2.5,1.5,1.5,2.25,2.75,2.25,84,87,L
+"MENDOZA, JOMMAR B.",M.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,3,2,RECOMMENDED,3,2.75,3,3,2.5,1.75,1.25,93,92,M
+"MONTESCLARO, PIERRE S.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,4,1.75,2.5,2.5,1,2.75,1,86,85,L
+"MOLINA, ANDREI JOHN D.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,4,1.5,2.75,2.75,2.25,1.75,1.75,86,91,M
+"QUINONES, GRACE MARIE E.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,6,2,RECOMMENDED,4,1.75,1.75,1.75,2,1.5,2,87.5,88,L
+"RODRIGO, ARLENE S.",M.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,2,1.75,1.5,1.5,2.75,3,2.75,82,83,M
+"SALAZAR, JOVEN T.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,2,1.5,1.75,1.75,1.75,2.5,2.25,87,88,L
+"CALAMBRO, JEFHERSON",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,7,1,RECOMMENDED,3,1.75,1.25,1.25,1.75,2.75,2.5,90,90,M
+"CHUA, CHRISTIAN M.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,1,5,1,RECOMMENDED,4,1.25,1.25,1.25,1.5,1.75,1,83,85,L
+"CONALES, JUN HIENRICK C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,1,0,RECOMMENDED,1,1.25,1.5,1.5,1.75,1.5,2.25,90,90,M
+"DINGDING, DG BOY E.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,1,1.5,2.75,1.75,1.25,1.75,2,93,94,L
+"DONQUE, JOVELYN B.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,6,2,RECOMMENDED,2,2.25,2,1.25,1.25,1.25,2.75,82,86,M
+"DORIA, LOUIE ANTHONY G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,1,2,RECOMMENDED,2,2,2.75,1.25,1.25,1.25,1.75,90,90,L
+"ESCUADRA, ROCAJANE B.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,1,2.5,2.25,2.5,1,1.5,2.75,90,89,M
+"FLORES, JHONGSON G.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,3,2.75,1.25,2.75,1.25,2.75,1.75,87,88,L
+"GEROCHE, ALJANE O.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,3,2,RECOMMENDED,2,1.75,1,1.75,1.5,2,1.5,87,87,M
+"GORON, MILLET B.",F.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,2,2,RECOMMENDED,3,1.5,1.75,1.5,1.25,1.25,3,82,87,L
+"JANORAS, APRIL BIANCA P.",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,4,4,0,RECOMMENDED,1,1.75,2,1.75,3,1.5,2.5,93,93,M
+"LAGURA, AILLA MAE R.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,3,1.25,2.75,1.25,2.5,1.25,2.75,90,90,L
+"LUAREZ, ANGELBERT O.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,0,RECOMMENDED,4,1.25,2.25,1.25,2.75,2,1.75,80,85,M
+"PAGLINAWAN, ROMY JR. N.",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,1.25,2.5,1.5,1.75,2,1.5,85,85,L
+"PALER, MARIVIC O.",F.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,3,0,RECOMMENDED,2,1,1,2.75,1.5,2.5,1.75,82,82,M
+"QUIRNTE, VANESSA B.",M.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,1,7,0,RECOMMENDED,3,1.25,2.25,2,1.75,2.75,1.25,77,76,M
+"SANCHEZ, GIL SALVADOR S.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,1,1.5,2,2.75,1.25,1.75,1.25,89,83,M
+"TANGELAS, JOHN NEIL A.",F.,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,1,4,1,RECOMMENDED,4,1.25,2.75,2.25,1.25,1.75,1.5,77,77,M
+"TAROY, JESSA MAE R.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,4,2,1.75,1.25,1.5,1.25,2.75,89,91,M
+"TOMALA, MARY JEN B.",F.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,2,1.75,1.5,2.75,1.25,2,84.84,86.37,L
+"ADORMEO, ERICA E.",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,2,2.5,1.5,1.75,2,1.5,1.25,93,95,M
+"AVENIDO, TRISHA MAE",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,1,2.75,1.75,2,1.25,2.25,1.5,74,73.5,M
+"BALAGON, NILO JR. G.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,0,RECOMMENDED,2,1.75,1.25,2.75,1.5,2,2,87,86,L
+"BEGUNA, JOMAR E.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,4,7,1,RECOMMENDED,1,1.5,1.25,2.25,1.25,2.5,2.75,95,93,M
+"BURON, RETCHARD R.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,1,1.75,1.25,2.5,2,2.75,2.25,81,81,L
+"CORTEJOS, STEVEN S.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,3,0,RECOMMENDED,2,1.75,1.5,1.75,2,1.75,1.25,87,89,M
+"CUTAY, TIMOTHY O.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,2,1.5,1.25,2.25,2.5,1.5,1.5,84,83.22,L
+"PELIGRO, ARCHEMIDES M.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,4,1.75,1.5,2,2.75,1.75,1.75,89,93,M
+"SANIEL, REYNADO JR. A.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,1,1.25,1.25,2.25,1.75,1.25,2,84.5,85.5,L
+"QUE, PIERELL MARK M.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,3,2,RECOMMENDED,3,1.25,2,2,2.5,1.25,2.75,80.69,86.29,M
+"RABAGO, METHUSELLA V.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,4,6,1,RECOMMENDED,3,1.5,2,2.75,1.25,1.25,2.25,91,89,L
+"TAGANAS, SWEETZEL M.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,4,2.25,2,1.75,1.25,1.25,2.5,86,87,M
+"TARAYAO, NORBERTO JR. S.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,1,2,1.75,1.5,1.5,1.25,1,92,92,L
+"TOONG, MARK ANTHONY",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,4,2.5,2.5,3,2.75,2.5,2.25,88,86,M
+"MASLOG, LADY JANE M.",F.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,4,0,RECOMMENDED,4,2.75,1,2.5,2,2.75,2,85,90,L
+"MENDIOLA, NATALIE L.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,1,1.75,2.25,2.75,2.75,1.75,2.75,78,77.08,M
+"NAMATA, ELAIZA",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,4,1.5,2,1.75,2,1.5,1.75,92,91,L
+"AGBAYANI, JOANA HAZELE.",M.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,4,1.75,2.75,1.5,1.25,1,2.75,83,85,M
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,3,1.25,1.75,1.75,1.5,2.25,1.75,85,85,L
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,3,2,RECOMMENDED,2,1.25,1.5,1.25,1.75,2,1.5,72,72,M
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,4,3,2,RECOMMENDED,2,1.25,3,1.25,2,2.75,3,80,79,L
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,1,1.75,2.5,1.5,2.75,1.75,2.5,80,85,M
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,3,1.25,2.75,1.75,2.25,1.5,2.75,83,82.4,L
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,1,1.5,1.75,1.25,2.5,3,1.75,86,86,M
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,4,4,0,RECOMMENDED,4,2.75,1.5,1.25,1.75,2.5,1.5,79,83,L
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,2,1.75,1.75,2.5,2.25,2.75,1.75,84,78,M
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,1,1.5,1.25,2.75,2,1.75,1.25,84,88,L
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,6,2,RECOMMENDED,2,1.75,1.25,1.75,2.75,1.5,1.25,78,77.66,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,3,1.25,1.5,1.5,1.75,1.75,1.5,91,91,L
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,3,2,RECOMMENDED,3,1.25,2.75,1.75,1.75,1.25,2.75,93,96,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,3,1,RECOMMENDED,1,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,2,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,1,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,3,0,RECOMMENDED,1,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,1,1.25,2,2,1.5,2.5,1.25,91,92,L
+"DANO, ROSBENA E.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,5,0,RECOMMENDED,3,2,2,2.75,1.75,2.75,1.75,91,90,M
+"DAYUCOS, NECCA JOY C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,3,6,0,RECOMMENDED,3,2,2.5,2.25,1.25,1.75,2,89,92,M
+"DENUEVO, KRISTIAN CARL",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,1,2.5,2.75,1.25,1.25,1.5,2.75,81,82,L
+"DOLORITO, PRINCE B.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,6,2,RECOMMENDED,3,2.75,1.75,1,1.5,1.75,2.25,91,91,M
+"GACRAMA, ZANRY LOUISEE",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,4,1.75,2.5,1.75,2.25,1.25,1.5,88,90,L
+"GARCES, BRAYL C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,2,1.5,1,2,2,1.25,1.75,86,91,M
+"JAMERO, PERLIE JAN M.",M.,FILIPINO,Butuan City,26,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,2,1.75,2.25,2.75,2.5,1.5,2,80,80,L
+"JUWAIL, JEFFERYL N.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,1,1.75,2,2.25,2.75,2.75,2.75,90,91,M
+"ADAYA, ROSELYN T.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,3,1.5,2.75,1,1.75,2,2.25,89,89,L
+"AMPIT, REYNALDO A.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,4,0,RECOMMENDED,1,1.75,1.75,1.75,1.5,2,1.25,94,91,M
+"ANOG, EDWIN O.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,4,1.25,1.5,2,1.75,2,2.25,80,83,L
+"APATINO, CESAR IAN C.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,4,1.25,3,2.75,1.25,2.5,2,79,80,M
+"BACALA, JIRAH B.",M.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,4,2,RECOMMENDED,4,1.5,2.5,2.25,1.25,2.75,2.75,81,85,L
+"BALONGA, DAVID RAUL B.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,7,1,RECOMMENDED,1,2.25,2.75,2.5,1.25,1.75,1.75,94,98,M
+"CHISPA, APRIL LOVE A.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,1,0,RECOMMENDED,2,2,1.75,1.5,1,2.5,2.75,88,90,L
+"ELUDO, ARMIE FAITH JAYA C.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,1,5,0,RECOMMENDED,4,2.5,1.5,2.25,1.25,1,1.75,89,91,M
+ETA-OC CARINE B.,M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,6,1,RECOMMENDED,1,2.75,1.75,2,1.5,2.25,1.5,80,85,L
+"GUELA, IVERSON P.",M.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,2,2,RECOMMENDED,1,1.75,1.25,2.25,2.75,2,3,90,90,M
+"HUBAY, CYRIL R.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,3,0,RECOMMENDED,4,1.5,1.25,2,1.75,2.75,2.5,89,90,L
+"LANGGAMON, MICHAEL J.",M,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,7,1,RECOMMENDED,2,1.75,1.5,2.75,1.5,1.75,2.75,90,92,M
+JOHN PAUL,M.,FILIPINO,Butuan City,19,1,above average,small,both educated,10km-12km,1,5,1,RECOMMENDED,3,1.5,2.75,1.75,1.75,2,1.75,91,94,L
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,1,2,0,RECOMMENDED,4,1.75,2,1.5,1.25,2.25,1.5,84,90,M
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,4,0,RECOMMENDED,2,1.75,2.75,3,1.25,2,1.75,89,89,L
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,3,1.5,2.25,2.5,2.25,2.75,1.25,82,87,M
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,3,1.75,1.25,2.75,2,1.75,1.25,91,91,L
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,1,2,RECOMMENDED,3,1.25,1,1.75,2.75,1.5,1.5,92.25,93.25,M
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,1,2,2,RECOMMENDED,3,1.25,1.75,1.5,1.75,3,2.75,91,89,L
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,3,1.5,2,1.75,1.75,2.5,2,85,84,M
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,1,1,1,RECOMMENDED,3,2.25,2.75,1.75,1.5,2.75,2.75,91,94,L
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,1,3,1,RECOMMENDED,3,2,2.25,1.5,1.75,1.75,2.25,90,90,M
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,1,2.5,2.5,3,1.25,1.5,1.25,72,70,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,2,2.75,1,2.5,1.25,1.75,1,86,85.79,M
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,3,2.5,2.5,2,1.25,1.75,1.25,90,90,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,3,1,RECOMMENDED,3,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,7,1,RECOMMENDED,4,1.25,1.25,1.25,1.75,1.75,2.75,86,89,L
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,3,0,RECOMMENDED,4,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,5,1,RECOMMENDED,2,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,6,1,RECOMMENDED,2,1.25,2,2,1.5,2.5,1.25,91,92,L
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,2,2,RECOMMENDED,4,2,2,2.75,1.75,2.75,1.75,91,90,M
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,2,2,RECOMMENDED,2,2,2.5,2.25,1.25,1.75,2,89,92,L
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,1,2.5,2.75,1.25,1.25,1.5,2.75,81,82,M
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,1,1,RECOMMENDED,2,2.75,1.75,1,1.5,1.75,2.25,91,91,L
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,3,1.75,2.5,1.75,2.25,1.25,1.5,88,90,M
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,2,1.5,1,2,2,1.25,1.75,86,91,L
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,2,1.75,2.25,2.75,2.5,1.5,2,80,80,M
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,2,0,RECOMMENDED,3,1.75,2,2.25,2.75,2.75,2.75,90,91,L
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,1,1.5,2.75,1,1.75,2,2.25,89,89,M
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,4,1.75,1.75,1.75,1.5,2,1.25,94,91,L
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,4,1.25,1.5,2,1.75,2,2.25,80,83,M
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,2,1.25,3,2.75,1.25,2.5,2,79,80,L
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,2,1,RECOMMENDED,3,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,3,1.25,1.25,1.25,1.75,1.75,2.75,86,89,L
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,3,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,3,2,RECOMMENDED,2,1.5,1.25,2.75,1.25,3,1.25,94,96,L
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,1,1.25,2,2,1.5,2.5,1.25,91,92,M
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,4,2,2,2.75,1.75,2.75,1.75,91,90,L
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,3,2,RECOMMENDED,3,2,2.5,2.25,1.25,1.75,2,89,92,M
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,1,2.5,2.75,1.25,1.25,1.5,2.75,81,82,L
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,1,2.75,1.75,1,1.5,1.75,2.25,91,91,M
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,3,0,RECOMMENDED,1,1.75,2.5,1.75,2.25,1.25,1.5,88,90,L
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,4,1.5,1,2,2,1.25,1.75,86,91,M
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,3,1.75,2.25,2.75,2.5,1.5,2,80,80,L
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,1,1.75,2,2.25,2.75,2.75,2.75,90,91,M
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,3,1.5,2.75,1,1.75,2,2.25,89,89,L
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,4,1,RECOMMENDED,2,1.75,1.75,1.75,1.5,2,1.25,94,91,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,4,1.25,1.5,2,1.75,2,2.25,80,83,M
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,3,1.25,3,2.75,1.25,2.5,2,79,80,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,2,2,RECOMMENDED,4,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,2,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,4,2,RECOMMENDED,3,1.25,1.5,1.5,1.25,1.5,2.25,90,92,L
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,5,0,RECOMMENDED,2,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,2,1.25,2,2,1.5,2.5,1.25,91,92,M
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,3,2,2,2.75,1.75,2.75,1.75,91,90,L
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,4,2,2.5,2.25,1.25,1.75,2,89,92,M
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,4,2.5,2.75,1.25,1.25,1.5,2.75,81,82,L
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,1,1,RECOMMENDED,1,2.75,1.75,1,1.5,1.75,2.25,91,91,M
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,1,1.75,2.5,1.75,2.25,1.25,1.5,88,90,L
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,4,1.5,1,2,2,1.25,1.75,86,91,M
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,3,1.75,2.25,2.75,2.5,1.5,2,80,80,L
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,2,0,RECOMMENDED,3,1.75,2,2.25,2.75,2.75,2.75,90,91,M
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,3,1.5,2.75,1,1.75,2,2.25,89,89,L
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,3,1.75,1.75,1.75,1.5,2,1.25,94,91,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,1,1.25,1.5,2,1.75,2,2.25,80,83,L
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,2,1.25,3,2.75,1.25,2.5,2,79,80,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,6,0,RECOMMENDED,4,1.25,2,1.25,1.5,2.75,2,80,86,L
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,2,RECOMMENDED,1,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,1,1.25,1.5,1.5,1.25,1.5,2.25,90,92,L
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,3,1,RECOMMENDED,4,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,4,1.25,2,2,1.5,2.5,1.25,91,92,L
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,7,1,RECOMMENDED,3,2,2,2.75,1.75,2.75,1.75,91,90,M
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,3,2,2.5,2.25,1.25,1.75,2,89,92,L
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,2,2.5,2.75,1.25,1.25,1.5,2.75,81,82,M
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,1,2.75,1.75,1,1.5,1.75,2.25,91,91,L
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,6,1,RECOMMENDED,4,1.75,2.5,1.75,2.25,1.25,1.5,88,90,M
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,2,RECOMMENDED,2,1.5,1,2,2,1.25,1.75,86,91,L
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,2,1,RECOMMENDED,3,1.75,2.25,2.75,2.5,1.5,2,80,80,M
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,3,1,RECOMMENDED,4,1.75,2,2.25,2.75,2.75,2.75,90,91,L
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,2,1.5,2.75,1,1.75,2,2.25,89,89,M
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,4,1.75,1.75,1.75,1.5,2,1.25,94,91,L
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,1,1.25,1.5,2,1.75,2,2.25,80,83,M
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,4,1.25,3,2.75,1.25,2.5,2,79,80,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,6,1,RECOMMENDED,2,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,1,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,5,1,RECOMMENDED,4,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,1,2,RECOMMENDED,1,1.5,1.25,2.75,1.25,3,1.25,94,96,L
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,1,2,RECOMMENDED,2,1.25,2,2,1.5,2.5,1.25,91,92,M
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,1,1,RECOMMENDED,4,2,2,2.75,1.75,2.75,1.75,91,90,M
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,3,2,2.5,2.25,1.25,1.75,2,89,92,L
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,7,1,RECOMMENDED,2,2.5,2.75,1.25,1.25,1.5,2.75,81,82,M
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,2,2,RECOMMENDED,3,2.75,1.75,1,1.5,1.75,2.25,91,91,L
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,2,0,RECOMMENDED,2,1.75,2.5,1.75,2.25,1.25,1.5,88,90,M
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,3,1.5,1,2,2,1.25,1.75,86,91,L
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,4,1.75,2.25,2.75,2.5,1.5,2,80,80,M
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,3,1.75,2,2.25,2.75,2.75,2.75,90,91,L
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,3,2,RECOMMENDED,3,1.5,2.75,1,1.75,2,2.25,89,89,M
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,6,1,RECOMMENDED,4,1.75,1.75,1.75,1.5,2,1.25,94,91,L
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,2,1.25,1.5,2,1.75,2,2.25,80,83,M
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,1,RECOMMENDED,3,1.25,3,2.75,1.25,2.5,2,79,80,L
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,7,1,RECOMMENDED,4,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,2,1.25,1.25,1.25,1.75,1.75,2.75,86,89,L
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,6,2,RECOMMENDED,3,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,2,0,RECOMMENDED,1,1.5,1.25,2.75,1.25,3,1.25,94,96,L
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,2,1.25,2,2,1.5,2.5,1.25,91,92,M
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,2,1,RECOMMENDED,4,2,2,2.75,1.75,2.75,1.75,91,90,L
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,6,0,RECOMMENDED,3,2,2.5,2.25,1.25,1.75,2,89,92,M
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,3,2.5,2.75,1.25,1.25,1.5,2.75,81,82,L
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,6,2,RECOMMENDED,1,2.75,1.75,1,1.5,1.75,2.25,91,91,M
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,5,0,RECOMMENDED,1,1.75,2.5,1.75,2.25,1.25,1.5,88,90,L
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,0,RECOMMENDED,4,1.5,1,2,2,1.25,1.75,86,91,M
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,7,2,RECOMMENDED,4,1.75,2.25,2.75,2.5,1.5,2,80,80,L
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,7,2,RECOMMENDED,1,1.75,2,2.25,2.75,2.75,2.75,90,91,M
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,5,1,RECOMMENDED,1,1.5,2.75,1,1.75,2,2.25,89,89,L
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,5,0,RECOMMENDED,1,1.75,1.75,1.75,1.5,2,1.25,94,91,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,2,1.25,1.5,2,1.75,2,2.25,80,83,L
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,0,RECOMMENDED,2,1.25,3,2.75,1.25,2.5,2,79,80,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,5,1,RECOMMENDED,4,1.25,2,1.25,1.5,2.75,2,80,86,M
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,4,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,7,0,RECOMMENDED,4,1.25,1.5,1.5,1.25,1.5,2.25,90,92,M
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,1,1,RECOMMENDED,2,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",M.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,1,1.25,2,2,1.5,2.5,1.25,91,92,L
+"ALPUERTO, JAY",M.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,3,4,1,RECOMMENDED,3,2,2,2.75,1.75,2.75,1.75,91,90,M
+"APDO, LARRY CARLO S.",F.,FILIPINO,Butuan City,20,3,above average,small,both educated,10km-12km,3,4,1,RECOMMENDED,4,2,2.5,2.25,1.25,1.75,2,89,92,M
+"BALBERAN, HANA LOREN G.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,7,0,RECOMMENDED,1,2.5,2.75,1.25,1.25,1.5,2.75,81,82,L
+"BETI-AN, MA.KRISTNA D.",F.,FILIPINO,Butuan City,25,3,above average,small,both educated,10km-12km,3,5,2,RECOMMENDED,3,2.75,1.75,1,1.5,1.75,2.25,91,91,M
+"BAYLON, HONEYLYN C.",F.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,2,4,1,RECOMMENDED,2,1.75,2.5,1.75,2.25,1.25,1.5,88,90,L
+"BAYRON, JEZAMIE V.",F.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,3,1.5,1,2,2,1.25,1.75,86,91,M
+"BUCIO, LANNEY ROSE C.",F.,FILIPINO,Butuan City,22,3,above average,small,both educated,10km-12km,2,2,2,RECOMMENDED,4,1.75,2.25,2.75,2.5,1.5,2,80,80,L
+"CANDARE, JOAN T.",M.,FILIPINO,Butuan City,23,3,above average,small,both educated,10km-12km,3,6,0,RECOMMENDED,4,1.75,2,2.25,2.75,2.75,2.75,90,91,M
+"CLARO, JOHNMARK M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,6,0,RECOMMENDED,2,1.5,2.75,1,1.75,2,2.25,89,89,L
+"GALACIO, JERELYN",F.,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,3,1,2,RECOMMENDED,2,1.75,1.75,1.75,1.5,2,1.25,94,91,M
+"HAYA, JONAN",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,5,2,RECOMMENDED,3,1.25,1.5,2,1.75,2,2.25,80,83,L
+"LAPAC, JOBELY M.",F.,FILIPINO,Butuan City,24,3,above average,small,both educated,10km-12km,2,1,1,RECOMMENDED,4,1.25,3,2.75,1.25,2.5,2,79,80,M
+"MACUTOB, JESIE MAE C.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,1,5,2,RECOMMENDED,1,1.25,2,1.25,1.5,2.75,2,80,86,L
+"RAMA, JOSHUA C.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,2,3,1,RECOMMENDED,3,1.25,1.25,1.25,1.75,1.75,2.75,86,89,M
+"ARAPAN, RIANBEL KRYPTON P.",M.,FILIPINO,Butuan City,19,3,above average,small,both educated,10km-12km,3,4,0,RECOMMENDED,4,1.25,1.5,1.5,1.25,1.5,2.25,90,92,L
+"BUQUE, JESS ANGELO A.",M.,FILIPINO,Butuan City,21,3,above average,small,both educated,10km-12km,4,7,0,RECOMMENDED,4,1.5,1.25,2.75,1.25,3,1.25,94,96,M
+"CABAHUG, DANILO JR. N.",,FILIPINO,Butuan City,18,3,above average,small,both educated,10km-12km,2,4,0,RECOMMENDED,1,1.25,2,2,1.5,2.5,1.25,91,92,M

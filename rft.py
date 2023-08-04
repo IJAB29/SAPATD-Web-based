@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import OneHotEncoder 
 
+file_name = "knn-Test2.csv"
 
 def preprocess_data(data):
     preprocessed_data = []
@@ -21,10 +22,11 @@ def preprocess_data(data):
         preprocessed_data.append(preprocessed_row)
     return preprocessed_data
 
-with open('data.csv', newline='') as csvfile:
+with open(file_name, newline='') as csvfile:
     datareader = csv.reader(csvfile)
     data = []
     output_data = []
+    next(datareader) # skip head
     for row in datareader:
         if len(row) >= 23:
             output_data.append(row)
@@ -35,12 +37,12 @@ with open('data.csv', newline='') as csvfile:
                 row[3],  # birthplace
                 int(row[4]),  # age
                 row[5],  # year
-                int(row[6]),  # study_hours
-                row[7],  # absence
-                row[8],  # family_income
-                row[9],  # family_size
-                row[10],  # parent_educ_status
-                row[11],  # ave_travel_res_schl
+                row[6],  # family_income
+                row[7],  # family_size
+                row[8],  # parent_educ_status
+                row[9],  # ave_travel_res_schl
+                int(row[10]),  # study_hours
+                row[11],  # studs_hour
                 int(row[12]),  # dropped_subjects
                 row[13],  # failed_subjects
                 row[14],  # love_of_course
@@ -50,7 +52,7 @@ with open('data.csv', newline='') as csvfile:
                 float(row[18]),  # 2nd_yr_2nd_sem_gwa
                 float(row[19]),  # 3rd_yr_1st_sem_gwa
                 float(row[20]),  # 3rd_yr_2nd_sem_gwa
-                row[21],  # class
+                row[23],  # class
             ]
             data.append(row_data)
 
@@ -108,8 +110,8 @@ for train_index, test_index in kf.split(X):
 for i in range(len(data)):
     predicted_result = all_predictions[i]
     print(
-        f"Name: {data[i][0]}, Sex: {data[i][1]}, Age: {data[i][4]}, Year: {data[i][5]}, Family Income: {output_data[i][8]}, "
-        f"Family Size: {output_data[i][9]}, Parent Edu Status: {output_data[i][10]}, Ave Travel Distance: {output_data[i][11]}, "
+        f"Name: {data[i][0]}, Sex: {data[i][1]}, Age: {data[i][4]}, Year: {data[i][5]}, Family Income: {output_data[i][6]}, "
+        f"Family Size: {output_data[i][7]}, Parent Edu Status: {output_data[i][8]}, Ave Travel Distance: {output_data[i][9]}, "
         f"G11: {output_data[i][21]}, G12: {output_data[i][22]}, Predicted Result: {predicted_result}, Class: {output_data[i][23]}")
 
 accuracy = accuracy_score(actual_labels, all_predictions)
