@@ -15,6 +15,7 @@ import ast
 #TODO: Address security concerns
 #TODO: Make csv uniform when being uploaded
 #TODO: Add RF functionality
+#TODO: Maybe migrate to mysql
 
 from mlp import MLP
 

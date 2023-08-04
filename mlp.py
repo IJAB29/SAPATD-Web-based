@@ -64,7 +64,7 @@ class MLP:
                         float(row[18]),  # 2nd_yr_2nd_sem_gwa
                         float(row[19]),  # 3rd_yr_1st_sem_gwa
                         float(row[20]),  # 3rd_yr_2nd_sem_gwa
-                        row[21],  # class
+                        row[23],  # class
                     ]
                     data.append(row_data)
         return data, output_data
