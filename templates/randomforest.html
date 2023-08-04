@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Multilayer Perceptron Results</title>
+    <title>Random Forest Results</title>
     <head>
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='knn.css') }}">
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -54,8 +54,8 @@
           <button type="submit" class="pie-chart-button">View Results with Pie Charts</button>
       </form>
       
-        <h1>Multilayer Perceptron Results</h1>
-        <form method="POST" enctype="multipart/form-data" action="{{ url_for('multiceptron') }}">
+        <h1>Random Forest Results</h1>
+        <form method="POST" enctype="multipart/form-data" action="{{ url_for('randomforest') }}">
           <label for="file-upload" class="custom-file-upload">Upload Data File</label>
           <input id="file-upload" type="file" name="file" onchange="document.getElementById('file-name').innerHTML = this.files[0].name;">
           <span id="file-name"></span>

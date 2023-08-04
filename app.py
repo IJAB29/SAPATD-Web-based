@@ -18,12 +18,13 @@ import ast
 #TODO: Maybe migrate to mysql
 
 from mlp import MLP
+from rft import RF
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(app)
 
-app.secret_key = "hatdog"
+app.secret_key = "hatdog" #TODO: CHANGE
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -128,6 +129,43 @@ def multiceptron():
             return redirect(request.url)
 
     return render_template('multiceptron.html')
+   
+@app.route('/predict_randomforest', methods=['GET', 'POST'])
+def randomforest():
+    if request.method == 'POST':
+        start_time = time.time()
+        file = request.files['file']
+        if file.filename == '':
+            flash('No file selected for uploading')
+            return redirect(request.url)
+        if '.' in file.filename and file.filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS:
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            upload_time = time.time() - start_time
+
+            # use RF
+            rf_model = RF(file_name=file_path)
+            rf_model.train_rf_model()
+
+            results_with_grades = rf_model.results
+
+            print(f"Accuracy: {rf_model.accuracy}")
+            print(f"Precision: {rf_model.precision}")
+            print(f"Recall: {rf_model.recall}")
+            print(f"F-score: {rf_model.f1_score}")
+
+            # Call the function to generate pie charts
+            descriptive_chart_url, grade_chart_url = get_results_with_grades(results_with_grades)
+
+            # Pass the URLs to the template
+            return render_template('randomforest.html', results_with_grades=results_with_grades, descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, upload_time=upload_time)
+
+        else:
+            flash('Allowed file types are csv')
+            return redirect(request.url)
+
+    return render_template('randomforest.html')
 
 
 @app.route('/piecharts2', methods=['GET', 'POST'])
