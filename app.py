@@ -27,7 +27,7 @@ class User(db.Model):
 
 
 def get_results_with_grades(results_with_grades):
-    descriptive_counts = {"Excellent": 0, "Very Good": 0, "Good": 0, "Fair": 0, "Pass": 0}
+    descriptive_counts = {"Excellent": 0, "Very Good": 0, "Good": 0, "Fair": 0, "Pass": 0, "Failed": 0}
     for result in results_with_grades:
         descriptive_counts[result["Descriptive"]] += 1
     

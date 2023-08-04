@@ -5,6 +5,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+import pandas as pd
 
 class MLP:
     def __init__(self, file_name):
@@ -67,6 +68,28 @@ class MLP:
                     ]
                     data.append(row_data)
         return data, output_data
+
+    def convert_to_gwa(self, grade):
+        if grade >= 97:
+            return 1.0
+        elif grade >= 94:
+            return 1.25
+        elif grade >= 91:
+            return 1.5
+        elif grade >= 88:
+            return 1.75
+        elif grade >= 85:
+            return 2.0
+        elif grade >= 82:
+            return 2.25
+        elif grade >= 79:
+            return 2.5
+        elif grade >= 76:
+            return 2.75
+        elif grade >= 75:
+            return 3.0
+        else:
+            return 5.0
                     
 
     # Define the function to convert the numerical GWA to alphanumeric grade
@@ -103,8 +126,10 @@ class MLP:
             return 'Good'
         elif gwa <= 2.75:
             return 'Fair'
-        else:
-            return 'Pass'
+        elif gwa <= 3 : #added
+            return 'Passed'
+        else: #failed if morethan 3
+            return 'Failed'
 
     def train_mlp_model(self):
         data = self.preprocessed
@@ -163,6 +188,7 @@ class MLP:
         for i in range(len(data)):
             predicted_result = label_encoder.inverse_transform([all_predictions[i]])[0]  # get the original grade
             predicted_result = float(predicted_result)  # convert string grade back to float
+            predicted_result = self.convert_to_gwa(predicted_result)
             grade = self.convert_to_alphanumeric(predicted_result)
             desc = self.convert_to_descriptive(predicted_result)
             data_dict = {
