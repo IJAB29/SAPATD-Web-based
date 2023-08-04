@@ -12,6 +12,10 @@ import time
 import os
 import ast
 
+#TODO: Address security concerns
+#TODO: Make csv uniform when being uploaded
+#TODO: Add RF functionality
+
 from mlp import MLP
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
