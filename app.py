@@ -107,6 +107,11 @@ def multiceptron():
 
             results_with_grades = mlp_model.results
 
+            print(f"Accuracy: {mlp_model.accuracy}")
+            print(f"Precision: {mlp_model.precision}")
+            print(f"Recall: {mlp_model.recall}")
+            print(f"F-score: {mlp_model.f1_score}")
+
             # Call the function to generate pie charts
             descriptive_chart_url, grade_chart_url = get_results_with_grades(results_with_grades)
 

@@ -9,7 +9,7 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 class MLP:
     def __init__(self, file_name):
         self.file_name = file_name
-        self.data = self.extract_data()
+        self.data, self.output_data = self.extract_data()
         self.preprocessed = self.preprocess_data(self.data)
         self.results = None
         self.accuracy = None
@@ -66,7 +66,7 @@ class MLP:
                         row[21],  # class
                     ]
                     data.append(row_data)
-        return output_data
+        return data, output_data
                     
 
     # Define the function to convert the numerical GWA to alphanumeric grade
@@ -108,7 +108,7 @@ class MLP:
 
     def train_mlp_model(self):
         data = self.preprocessed
-        output_data = self.data
+        output_data = self.output_data
         data = np.array(data)  # Convert the data list to a numpy array
 
         # Ensure data is 2D by adding an axis
@@ -143,7 +143,6 @@ class MLP:
             # Make predictions on the test set
             predictions = mlp.predict(X_test)
             all_predictions += predictions.tolist()
-
             actual_labels += y_test.tolist()
 
         for train_index, test_index in kf.split(X):
@@ -164,7 +163,6 @@ class MLP:
         for i in range(len(data)):
             predicted_result = label_encoder.inverse_transform([all_predictions[i]])[0]  # get the original grade
             predicted_result = float(predicted_result)  # convert string grade back to float
-            print(predicted_result)
             grade = self.convert_to_alphanumeric(predicted_result)
             desc = self.convert_to_descriptive(predicted_result)
             data_dict = {

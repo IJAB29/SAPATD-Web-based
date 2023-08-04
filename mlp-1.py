@@ -146,8 +146,9 @@ for train_index, test_index in kf.split(X):
 
 for i in range(len(data)):
     predicted_result = label_encoder.inverse_transform([all_predictions[i]])[0]  # get the original grade
+    print("predicted_result no revert: ", predicted_result)
     predicted_result = float(predicted_result)  # convert string grade back to float
-
+    print("predicted_result: ", predicted_result)
     grade = convert_to_alphanumeric(predicted_result)
     desc = convert_to_descriptive(predicted_result)
     print(
