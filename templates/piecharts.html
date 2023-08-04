@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KNN Results - Pie Charts</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='knn.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .chart-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .chart-container div {
+        width: 150%;
+      }
+    </style>
+    <a href="/predict" class="home-button">Home</a>
+    <div class="chart-container">
+      <div>
+        <h2>Descriptive Percentages</h2>
+        <img src="{{ descriptive_chart_url }}" alt="Descriptive Pie Chart" width="650px" height="500px">
+      </div>
+      <div>
+        <h2>Grade Percentages</h2>
+        <img src="{{ grade_chart_url }}" alt="Grade Pie Chart" width="650px" height="500px">
+      </div>
+    </div>
+    
