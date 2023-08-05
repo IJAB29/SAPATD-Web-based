@@ -23,21 +23,26 @@ from rft import RF
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+
+# initialize db
 db = SQLAlchemy(app)
 
 app.secret_key = "hatdog" #TODO: CHANGE
 
-# Initialize Flask-Login
+# Initialize Flask-Login to check if user if logged in
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'index'
 
+# initialize user table in db
+# sa ubos ra nag create ng db
 class User(UserMixin, db.Model):
     __tablename__ = "user"
     id = db.Column(db.String(36), primary_key=True, default=str(uuid.uuid4()))
     email = db.Column(db.String(50))
     password = db.Column(db.String(50))
 
+#  check if user is logged in
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
@@ -49,6 +54,7 @@ def load_user_from_request(request):
         return User.query.get(user_id)
     return None
 
+# redirect to login page if the credentials do not match
 @login_manager.unauthorized_handler
 def unauthorized_handler():
     return redirect(url_for( "login" ))
@@ -116,16 +122,17 @@ def multiceptron():
             file.save(file_path)
             upload_time = time.time() - start_time
 
-            # use MLP
+            # use MLP from mlp.py
             mlp_model = MLP(file_name=file_path)
             mlp_model.train_mlp_model()
 
             results_with_grades = mlp_model.results
 
-            session["accuracy"] = mlp_model.accuracy
-            session["precision"] = mlp_model.precision
-            session["recall"] = mlp_model.recall
-            session["f1_score"] = mlp_model.f1_score
+            session["mlp_accuracy"] = mlp_model.accuracy
+            session["mlp_precision"] = mlp_model.precision
+            session["mlp_recall"] = mlp_model.recall
+            session["mlp_f1_score"] = mlp_model.f1_score
+            session["mlp_model"] = "Multilayer Perceptron"
 
             print(f"Accuracy: {mlp_model.accuracy}")
             print(f"Precision: {mlp_model.precision}")
@@ -165,10 +172,12 @@ def randomforest():
 
             results_with_grades = rf_model.results
 
-            session["accuracy"] = rf_model.accuracy
-            session["precision"] = rf_model.precision
-            session["recall"] = rf_model.recall
-            session["f1_score"] = rf_model.f1_score
+            session["rf_accuracy"] = rf_model.accuracy
+            session["rf_precision"] = rf_model.precision
+            session["rf_recall"] = rf_model.recall
+            session["rf_f1_score"] = rf_model.f1_score
+            session["rf_model"] = "Random Forest"
+
 
             print(f"Accuracy: {rf_model.accuracy}")
             print(f"Precision: {rf_model.precision}")
@@ -188,16 +197,17 @@ def randomforest():
     return render_template('randomforest.html')
 
 
-@app.route('/piecharts2', methods=['GET', 'POST'])
+@app.route('/piecharts_mlp', methods=['GET', 'POST'])
 @login_required
-def piecharts2():
+def piecharts_mlp():
     if request.method == 'POST':
         descriptive_chart_url = request.form['descriptive_chart_url']
         grade_chart_url = request.form['grade_chart_url']
-        accuracy = session.get("accuracy")
-        precision = session.get("precision")
-        recall = session.get("recall")
-        f1_score = session.get("f1_score")
+        accuracy = session.get("mlp_accuracy")
+        precision = session.get("mlp_precision")
+        recall = session.get("mlp_recall")
+        f1_score = session.get("mlp_f1_score")
+        model = session.get("mlp_model")
 
         print(f"Accuracy: {accuracy}")
         print(f"Precision: {precision}")
@@ -207,15 +217,47 @@ def piecharts2():
             results_with_grades = ast.literal_eval(request.form['results_with_grades'])
         except SyntaxError:
             results_with_grades = []
-        return render_template('piecharts2.html', 
+        return render_template('piecharts_mlp.html', 
                                descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, 
                                results_with_grades=results_with_grades,
                                accuracy=accuracy,
                                precision=precision,
                                recall=recall,
-                               f1_score=f1_score,)
+                               f1_score=f1_score,
+                               model=model)
 
-    return render_template('piecharts2.html')
+    return render_template('piecharts_mlp.html')
+
+@app.route('/piecharts_rf', methods=['GET', 'POST'])
+@login_required
+def piecharts_rf():
+    if request.method == 'POST':
+        descriptive_chart_url = request.form['descriptive_chart_url']
+        grade_chart_url = request.form['grade_chart_url']
+        accuracy = session.get("rf_accuracy")
+        precision = session.get("rf_precision")
+        recall = session.get("rf_recall")
+        f1_score = session.get("rf_f1_score")
+        model = session.get("rf_model")
+
+        print(f"Accuracy: {accuracy}")
+        print(f"Precision: {precision}")
+        print(f"Recall: {recall}")
+        print(f"F-score: {f1_score}")
+        try:
+            results_with_grades = ast.literal_eval(request.form['results_with_grades'])
+        except SyntaxError:
+            results_with_grades = []
+        return render_template('piecharts_rf.html', 
+                               descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, 
+                               results_with_grades=results_with_grades,
+                               accuracy=accuracy,
+                               precision=precision,
+                               recall=recall,
+                               f1_score=f1_score,
+                               model=model)
+
+    return render_template('piecharts_rf.html')
 
 
 @app.route("/")
@@ -236,7 +278,7 @@ def login():
         password = request.form["password"]
 
         user = User.query.filter_by(email=email).first()
-        if user is not None:
+        if user is not None and user.password == password:
             login_user(user)
         return redirect(url_for("dashboard"))
 
@@ -265,6 +307,7 @@ def register():
     return render_template("register.html")
 
 if __name__ == "__main__":
+    # create database
     with app.app_context():
         db.create_all()
         

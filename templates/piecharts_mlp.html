@@ -14,7 +14,9 @@
         width: 150%;
       }
     </style>
-    <h1>Precision Scores</h1>
+    <button onclick="goBack()" class="home-button">Go Back</button>
+    
+    <h1>{{ model }} Precision Scores</h1>
 
     <table>
         <tr>
@@ -40,4 +42,11 @@
         <img src="{{ grade_chart_url }}" alt="" width="650px" height="500px">
       </div>
     </div>
+
+    <script>
+        function goBack() {
+            // Go back to the previous page in the browsing history
+            window.history.back();
+        }
+    </script>
     

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pie Charts and Scores</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='knn.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .chart-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .chart-container div {
+        width: 150%;
+      }
+    </style>
+    <button onclick="goBack()" class="home-button">Go Back</button>
+    
+    <h1>{{ model }} Precision Scores</h1>
+
+    <table>
+        <tr>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Accuracy</th>
+        </tr>
+        <tr>
+            <td>{{ precision }}</td>
+            <td>{{ recall }}</td>
+            <td>{{ f1_score }}</td>
+            <td>{{ accuracy }}</td>
+        </tr>
+    </table>
+    <div class="chart-container">
+      <div>
+        <h2>Descriptive Percentages</h2>
+        <img src="{{ descriptive_chart_url }}" alt="" width="650px" height="500px">
+      </div>
+      <div>
+        <h2>Grade Percentages</h2>
+        <img src="{{ grade_chart_url }}" alt="" width="650px" height="500px">
+      </div>
+    </div>
+
+    <script>
+        function goBack() {
+            // Go back to the previous page in the browsing history
+            window.history.back();
+        }
+    </script>
+    
