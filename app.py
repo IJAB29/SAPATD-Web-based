@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, request, session, redirect, abort, jsonify, flash
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -11,11 +12,11 @@ import re
 import time
 import os
 import ast
+import uuid
 
-#TODO: Address security concerns
 #TODO: Make csv uniform when being uploaded
-#TODO: Add RF functionality
 #TODO: Maybe migrate to mysql
+#TODO: Improve UI
 
 from mlp import MLP
 from rft import RF
@@ -26,11 +27,31 @@ db = SQLAlchemy(app)
 
 app.secret_key = "hatdog" #TODO: CHANGE
 
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+# Initialize Flask-Login
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'index'
+
+class User(UserMixin, db.Model):
+    __tablename__ = "user"
+    id = db.Column(db.String(36), primary_key=True, default=str(uuid.uuid4()))
     email = db.Column(db.String(50))
     password = db.Column(db.String(50))
 
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(user_id)
+
+@login_manager.request_loader
+def load_user_from_request(request):
+    user_id = session.get('user_id')
+    if user_id:
+        return User.query.get(user_id)
+    return None
+
+@login_manager.unauthorized_handler
+def unauthorized_handler():
+    return 'Unauthorized', 401
 
 def get_results_with_grades(results_with_grades):
     descriptive_counts = {"Excellent": 0, "Very Good": 0, "Good": 0, "Fair": 0, "Pass": 0, "Failed": 0}
@@ -72,19 +93,6 @@ def get_results_with_grades(results_with_grades):
     # Return the URLs of the saved images
     return descriptive_chart_url, grade_chart_url
 
-    if isinstance(gwa, str):
-        return gwa
-    elif float(gwa) == 1.0:
-        return 'Excellent'
-    elif float(gwa) <= 1.5:
-        return 'Very Satisfactory'
-    elif float(gwa) <= 2.0:
-        return 'Satisfactory'
-    elif float(gwa) <= 2.75:
-        return 'Fair'
-    else:
-        return 'Poor'
-
 
 ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
 
@@ -94,6 +102,7 @@ def allowed_file(filename):
 
    
 @app.route('/predict_multiceptron', methods=['GET', 'POST'])
+@login_required
 def multiceptron():
     if request.method == 'POST':
         start_time = time.time()
@@ -131,6 +140,7 @@ def multiceptron():
     return render_template('multiceptron.html')
    
 @app.route('/predict_randomforest', methods=['GET', 'POST'])
+@login_required
 def randomforest():
     if request.method == 'POST':
         start_time = time.time()
@@ -169,6 +179,7 @@ def randomforest():
 
 
 @app.route('/piecharts2', methods=['GET', 'POST'])
+@login_required
 def piecharts2():
     if request.method == 'POST':
         descriptive_chart_url = request.form['descriptive_chart_url']
@@ -182,29 +193,44 @@ def piecharts2():
     return render_template('piecharts2.html')
 
 
+@app.route("/dashboard")
+@login_required
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/logout")
+@login_required
+def logout():
+    # Use the logout_user function to log the user out
+    logout_user()
+    return redirect(url_for("index"))
 
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
-        
-        login = User.query.filter_by(email=email, password=password).first()
-        if login is not None:
-            return redirect(url_for("dashboard"))
+
+        user = User.query.filter_by(email=email).first()
+        login_user(user)
+        return redirect(url_for("dashboard"))
+        # if user is not None and check_password_hash(user.password, password):
+        #     # Use the login_user function to log the user in
+        #     login_user(user)
+        #     return redirect(url_for("dashboard"))
+        # else:
+        #     flash("Invalid email or password", "error")
+        #     print("Invalid email or password", "error")
+
     return render_template("login.html")
 
-
-@app.route("/dashboard")
-def dashboard():
-    return render_template("dashboard.html")
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
-        print(email, password)
+        # print(email, password)
 
         # Check if the email is already registered
         existing_user = User.query.filter_by(email=email).first()
