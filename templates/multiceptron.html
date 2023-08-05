@@ -50,7 +50,7 @@
           <input type="hidden" name="descriptive_chart_url" value="{{ descriptive_chart_url }}">
           <input type="hidden" name="grade_chart_url" value="{{ grade_chart_url }}">
           <input type="hidden" name="results_with_grades" value="{{ results_with_grades }}">
-          <a href="/superadmin" class="home-button">Home</a>
+          <a href="{{ url_for('dashboard') }}" class="home-button">Home</a>
           <button type="submit" class="pie-chart-button">View Results with Pie Charts</button>
       </form>
       

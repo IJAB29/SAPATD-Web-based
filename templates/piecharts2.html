@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>KNN Results - Pie Charts</title>
+    <title>Pie Charts and Scores</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='knn.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -14,7 +14,22 @@
         width: 150%;
       }
     </style>
-    <a href="/predict2" class="home-button">Home</a>
+    <h1>Precision Scores</h1>
+
+    <table>
+        <tr>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Accuracy</th>
+        </tr>
+        <tr>
+            <td>{{ precision }}</td>
+            <td>{{ recall }}</td>
+            <td>{{ f1_score }}</td>
+            <td>{{ accuracy }}</td>
+        </tr>
+    </table>
     <div class="chart-container">
       <div>
         <h2>Descriptive Percentages</h2>

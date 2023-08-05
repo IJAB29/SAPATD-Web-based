@@ -51,7 +51,7 @@ def load_user_from_request(request):
 
 @login_manager.unauthorized_handler
 def unauthorized_handler():
-    return 'Unauthorized', 401
+    return redirect(url_for( "login" ))
 
 def get_results_with_grades(results_with_grades):
     descriptive_counts = {"Excellent": 0, "Very Good": 0, "Good": 0, "Fair": 0, "Pass": 0, "Failed": 0}
@@ -122,6 +122,11 @@ def multiceptron():
 
             results_with_grades = mlp_model.results
 
+            session["accuracy"] = mlp_model.accuracy
+            session["precision"] = mlp_model.precision
+            session["recall"] = mlp_model.recall
+            session["f1_score"] = mlp_model.f1_score
+
             print(f"Accuracy: {mlp_model.accuracy}")
             print(f"Precision: {mlp_model.precision}")
             print(f"Recall: {mlp_model.recall}")
@@ -160,6 +165,11 @@ def randomforest():
 
             results_with_grades = rf_model.results
 
+            session["accuracy"] = rf_model.accuracy
+            session["precision"] = rf_model.precision
+            session["recall"] = rf_model.recall
+            session["f1_score"] = rf_model.f1_score
+
             print(f"Accuracy: {rf_model.accuracy}")
             print(f"Precision: {rf_model.precision}")
             print(f"Recall: {rf_model.recall}")
@@ -184,16 +194,31 @@ def piecharts2():
     if request.method == 'POST':
         descriptive_chart_url = request.form['descriptive_chart_url']
         grade_chart_url = request.form['grade_chart_url']
+        accuracy = session.get("accuracy")
+        precision = session.get("precision")
+        recall = session.get("recall")
+        f1_score = session.get("f1_score")
+
+        print(f"Accuracy: {accuracy}")
+        print(f"Precision: {precision}")
+        print(f"Recall: {recall}")
+        print(f"F-score: {f1_score}")
         try:
             results_with_grades = ast.literal_eval(request.form['results_with_grades'])
         except SyntaxError:
             results_with_grades = []
-        return render_template('piecharts2.html', descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, results_with_grades=results_with_grades)
+        return render_template('piecharts2.html', 
+                               descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, 
+                               results_with_grades=results_with_grades,
+                               accuracy=accuracy,
+                               precision=precision,
+                               recall=recall,
+                               f1_score=f1_score,)
 
     return render_template('piecharts2.html')
 
 
-@app.route("/dashboard")
+@app.route("/")
 @login_required
 def dashboard():
     return render_template("dashboard.html")
@@ -201,26 +226,19 @@ def dashboard():
 @app.route("/logout")
 @login_required
 def logout():
-    # Use the logout_user function to log the user out
     logout_user()
-    return redirect(url_for("index"))
+    return redirect(url_for("login"))
 
-@app.route("/", methods=["GET", "POST"])
-def index():
+@app.route("/login", methods=["GET", "POST"])
+def login():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
 
         user = User.query.filter_by(email=email).first()
-        login_user(user)
+        if user is not None:
+            login_user(user)
         return redirect(url_for("dashboard"))
-        # if user is not None and check_password_hash(user.password, password):
-        #     # Use the login_user function to log the user in
-        #     login_user(user)
-        #     return redirect(url_for("dashboard"))
-        # else:
-        #     flash("Invalid email or password", "error")
-        #     print("Invalid email or password", "error")
 
     return render_template("login.html")
 
@@ -242,7 +260,7 @@ def register():
         db.session.add(register)
         db.session.commit()
         flash("Registration successful! Please log in.", "success")
-        return redirect(url_for("index"))
+        return redirect(url_for("login"))
 
     return render_template("register.html")
 
