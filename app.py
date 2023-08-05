@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.model_selection import KFold
 from io import BytesIO
 import matplotlib.pyplot as plt
+import pandas as pd
 import base64
 import re
 import time
@@ -18,8 +19,8 @@ import uuid
 #TODO: Maybe migrate to mysql
 #TODO: Improve UI
 
-from mlp import MLP
-from rft import RF
+from mlp import MLPModel
+from rft import RFModel
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
@@ -35,14 +36,14 @@ login_manager.init_app(app)
 login_manager.login_view = 'index'
 
 # initialize user table in db
-# sa ubos ra nag create ng db
+# naa sa pinakaubos ra nag create ng db
 class User(UserMixin, db.Model):
     __tablename__ = "user"
     id = db.Column(db.String(36), primary_key=True, default=str(uuid.uuid4()))
     email = db.Column(db.String(50))
     password = db.Column(db.String(50))
 
-#  check if user is logged in
+# constantly check if user is logged in
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
@@ -62,7 +63,7 @@ def unauthorized_handler():
 def get_results_with_grades(results_with_grades):
     descriptive_counts = {"Excellent": 0, "Very Good": 0, "Good": 0, "Fair": 0, "Pass": 0, "Failed": 0}
     for result in results_with_grades:
-        descriptive_counts[result["Descriptive"]] += 1
+        descriptive_counts[result["Desc"]] += 1
     
     grade_counts = {"A+": 0, "A": 0, "A-": 0, "B+": 0, "B": 0, "B-": 0, "C+": 0, "C": 0, "C-": 0, "Failed": 0}
     for result in results_with_grades:
@@ -122,22 +123,25 @@ def multiceptron():
             file.save(file_path)
             upload_time = time.time() - start_time
 
+            # Select the features and target variable
+            features = [
+                'Dropped subject', 'Failed subject',
+                '1st_year_grade_1st_sem', '1st_year_grade_2nd_sem',
+                '2nd_year_grade_1st_sem', '2nd_year_grade_2nd_sem',
+                '3rd_year_grade_1st_sem', '3rd_year_grade_2nd_sem'
+            ]
+
+            target = '3rd_year_grade_2nd_sem' # Adjust this to your actual target column
+
+
             # use MLP from mlp.py
-            mlp_model = MLP(file_name=file_path)
-            mlp_model.train_mlp_model()
+            mlp_model = MLPModel()
+            mlp_model.train_mlp(file_path=file_path, features=features, target=target)
 
-            results_with_grades = mlp_model.results
-
-            session["mlp_accuracy"] = mlp_model.accuracy
-            session["mlp_precision"] = mlp_model.precision
-            session["mlp_recall"] = mlp_model.recall
-            session["mlp_f1_score"] = mlp_model.f1_score
-            session["mlp_model"] = "Multilayer Perceptron"
-
-            print(f"Accuracy: {mlp_model.accuracy}")
-            print(f"Precision: {mlp_model.precision}")
-            print(f"Recall: {mlp_model.recall}")
-            print(f"F-score: {mlp_model.f1_score}")
+            results = mlp_model.results
+            results_with_grades = results.to_dict(orient="records")
+            r2_mlp_percentage = mlp_model.r2_mlp_percentage
+            session["r2_mlp_percentage"] = round(r2_mlp_percentage, 2)
 
             # Call the function to generate pie charts
             descriptive_chart_url, grade_chart_url = get_results_with_grades(results_with_grades)
@@ -166,29 +170,34 @@ def randomforest():
             file.save(file_path)
             upload_time = time.time() - start_time
 
+            # Select the features and target variable
+            features = [
+                'Dropped subject', 'Failed subject',
+                '1st_year_grade_1st_sem', '1st_year_grade_2nd_sem',
+                '2nd_year_grade_1st_sem', '2nd_year_grade_2nd_sem',
+                '3rd_year_grade_1st_sem', '3rd_year_grade_2nd_sem'
+            ]
+
+            target = '3rd_year_grade_2nd_sem' # Adjust this to your actual target column
+
             # use RF
-            rf_model = RF(file_name=file_path)
-            rf_model.train_rf_model()
+            rf_model = RFModel()
+            rf_model.train_rft(file_path=file_path, features=features, target=target)
 
-            results_with_grades = rf_model.results
-
-            session["rf_accuracy"] = rf_model.accuracy
-            session["rf_precision"] = rf_model.precision
-            session["rf_recall"] = rf_model.recall
-            session["rf_f1_score"] = rf_model.f1_score
-            session["rf_model"] = "Random Forest"
-
-
-            print(f"Accuracy: {rf_model.accuracy}")
-            print(f"Precision: {rf_model.precision}")
-            print(f"Recall: {rf_model.recall}")
-            print(f"F-score: {rf_model.f1_score}")
+            results = rf_model.results
+            results_with_grades = results.to_dict(orient="records")
+            r2_rf_percentage = rf_model.r2_rf_percentage
+            session["r2_rf_percentage"] = round(r2_rf_percentage, 2)
 
             # Call the function to generate pie charts
             descriptive_chart_url, grade_chart_url = get_results_with_grades(results_with_grades)
 
             # Pass the URLs to the template
-            return render_template('randomforest.html', results_with_grades=results_with_grades, descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, upload_time=upload_time)
+            return render_template('randomforest.html', 
+                                   results_with_grades=results_with_grades, 
+                                   descriptive_chart_url=descriptive_chart_url, 
+                                   grade_chart_url=grade_chart_url, 
+                                   upload_time=upload_time)
 
         else:
             flash('Allowed file types are csv')
@@ -203,16 +212,9 @@ def piecharts_mlp():
     if request.method == 'POST':
         descriptive_chart_url = request.form['descriptive_chart_url']
         grade_chart_url = request.form['grade_chart_url']
-        accuracy = session.get("mlp_accuracy")
-        precision = session.get("mlp_precision")
-        recall = session.get("mlp_recall")
-        f1_score = session.get("mlp_f1_score")
-        model = session.get("mlp_model")
+        
+        r2_mlp_percentage = session.get("r2_mlp_percentage")
 
-        print(f"Accuracy: {accuracy}")
-        print(f"Precision: {precision}")
-        print(f"Recall: {recall}")
-        print(f"F-score: {f1_score}")
         try:
             results_with_grades = ast.literal_eval(request.form['results_with_grades'])
         except SyntaxError:
@@ -220,11 +222,7 @@ def piecharts_mlp():
         return render_template('piecharts_mlp.html', 
                                descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, 
                                results_with_grades=results_with_grades,
-                               accuracy=accuracy,
-                               precision=precision,
-                               recall=recall,
-                               f1_score=f1_score,
-                               model=model)
+                               r2_mlp_percentage=r2_mlp_percentage)
 
     return render_template('piecharts_mlp.html')
 
@@ -234,16 +232,9 @@ def piecharts_rf():
     if request.method == 'POST':
         descriptive_chart_url = request.form['descriptive_chart_url']
         grade_chart_url = request.form['grade_chart_url']
-        accuracy = session.get("rf_accuracy")
-        precision = session.get("rf_precision")
-        recall = session.get("rf_recall")
-        f1_score = session.get("rf_f1_score")
-        model = session.get("rf_model")
 
-        print(f"Accuracy: {accuracy}")
-        print(f"Precision: {precision}")
-        print(f"Recall: {recall}")
-        print(f"F-score: {f1_score}")
+        r2_rf_percentage = session.get("r2_rf_percentage")
+
         try:
             results_with_grades = ast.literal_eval(request.form['results_with_grades'])
         except SyntaxError:
@@ -251,11 +242,7 @@ def piecharts_rf():
         return render_template('piecharts_rf.html', 
                                descriptive_chart_url=descriptive_chart_url, grade_chart_url=grade_chart_url, 
                                results_with_grades=results_with_grades,
-                               accuracy=accuracy,
-                               precision=precision,
-                               recall=recall,
-                               f1_score=f1_score,
-                               model=model)
+                               r2_rf_percentage=r2_rf_percentage)
 
     return render_template('piecharts_rf.html')
 

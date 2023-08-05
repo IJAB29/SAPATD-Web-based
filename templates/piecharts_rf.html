@@ -16,22 +16,7 @@
     </style>
     <button onclick="goBack()" class="home-button">Go Back</button>
     
-    <h1>{{ model }} Precision Scores</h1>
-
-    <table>
-        <tr>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th>F1-Score</th>
-            <th>Accuracy</th>
-        </tr>
-        <tr>
-            <td>{{ precision }}</td>
-            <td>{{ recall }}</td>
-            <td>{{ f1_score }}</td>
-            <td>{{ accuracy }}</td>
-        </tr>
-    </table>
+    <h1>Random Forest R2 Score: {{ r2_rf_percentage }}%</h1>
     <div class="chart-container">
       <div>
         <h2>Descriptive Percentages</h2>

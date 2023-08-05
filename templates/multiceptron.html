@@ -76,30 +76,34 @@
           <thead>
             <tr>
               <th class="">Name</th>
-              <th class="">Sex</th>
+              <th class="">Gender</th>
               <th class="">Age</th>
-              <th class="">Year</th>
+              <th class="">School Year</th>
               <th class="">Grade 11 GWA</th>
               <th class="">Grade 12 GWA</th>
-              <th class="">Class</th>
-              <th class="">Predicted Result</th>
+              <th class="">Actual Grade</th>
+              <th class="">Predicted Grade</th>
               <th class="">Grade</th>
               <th class="">Descriptive</th>
+              <th class="">Improvement (Absolute)</th>
+              <th class="">Improvement (Percentage)</th>
             </tr>
           </thead>
           <tbody id="table-body">
             {% for result in results_with_grades | sort(attribute='Name') %}
             <tr>
               <td class="name">{{ result['Name'] }}</td>
-              <td class="sex">{{ result['Sex'] }}</td>
+              <td class="gender">{{ result['Gender'] }}</td>
               <td class="age">{{ result['Age'] }}</td>
-              <td class="year">{{ result['Year'] }}</td>
-              <td class="g11">{{ result['G11'] }}</td>
-              <td class="g12">{{ result['G12'] }}</td>
-              <td class="class">{{ result['Class'] }}</td>
-              <td class="predicted-result">{{ result['Predicted Result'] }}</td>
+              <td class="year">{{ result['School year'] }}</td>
+              <td class="g11">{{ result['G11_grade'] }}</td>
+              <td class="g12">{{ result['G12_grade'] }}</td>
+              <td class="actual-grade">{{ result['Actual Grade'] }}</td>
+              <td class="predicted-result">{{ result['Predicted  Grade'] }}</td>
               <td class="grade">{{ result['Grade'] }}</td>
-              <td class="descriptive">{{ result['Descriptive'] }}</td>
+              <td class="descriptive">{{ result['Desc'] }}</td>
+              <td class="improve-abs">{{ result['Improvement (Absolute)'] }}</td>
+              <td class="improve-pcnt">{{ result['Improvement (Percentage)'] }}</td>
             </tr>
             {% endfor %}
           </tbody>
