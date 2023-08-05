@@ -54,7 +54,7 @@ def load_user_from_request(request):
         return User.query.get(user_id)
     return None
 
-# redirect to login page if the credentials do not match
+# redirect to login page if the credentials do not match or not found
 @login_manager.unauthorized_handler
 def unauthorized_handler():
     return redirect(url_for( "login" ))
